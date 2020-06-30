@@ -1,0 +1,101 @@
+body{
+    font-family: 'Pangolin', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 60px;
+}
+.name-hilight{
+    color: orange;
+}
+.head-section{
+    overflow: hidden;
+    padding: 20px;
+}
+.top-content{
+    width: 40%;
+    float: left;
+    height: 700px;
+    padding: 7px;
+    margin: 10px;
+}
+.first-para a{
+    background: orangered;
+    background-image:linear-gradient (tomato,orange);  
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.first-img{
+    width: 40%;
+    float: right;
+
+}
+.first-img img{
+    width: 100%;
+    height: 500px;
+}
+.second-section{
+    height: 700px;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+.second-para{
+    float: right;
+    width: 40%;  
+    height: 700px;
+}
+
+.second-img{
+    width: 40%;
+    float: left;
+
+}
+.second-img img{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.last-section{
+    padding: 20px;
+}
+.last-content{
+    display: inline-block;
+
+}
+
+.hilight{
+    color: lightsalmon;
+}
+
+.last-item {
+    width: 40%;
+    box-shadow: 11px 7px 20px 6px grey;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    height: 340px;
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    border-radius: 7px;
+}
+h2{
+    padding: 20px;
+}
+footer{
+    background: #df950d;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    line-height: 100px;
+}
+footer p{
+    text-align: center;
+
+}
